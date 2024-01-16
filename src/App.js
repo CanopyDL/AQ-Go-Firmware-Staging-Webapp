@@ -110,11 +110,11 @@ function CheckVersion(){
       var softwareVersionCount = 0;
       latestCompatibleSoftware = data.firmware[softwareVersionCount]['software'];
       console.log("Current: ", softwareVersion, "Latest: ", latestCompatibleSoftware);
-    if (latestCompatibleSoftware === softwareVersion)
-    {
-      //Software is updated, do nothing.
-    }
-    else {
+    //if (latestCompatibleSoftware === softwareVersion)
+   // {
+    //  //Software is updated, do nothing.
+    //}
+    //else {
       versionFindLoop:
         while (latestCompatibleSoftware !== undefined) {
           var compatibleHardwareVersion = "N/A"
@@ -134,7 +134,7 @@ function CheckVersion(){
           }
           softwareVersionCount++;
         }
-      }
+      //}
   })
   .catch(error => { console.log(error); });
 }
