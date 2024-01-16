@@ -124,11 +124,11 @@ function CheckVersion(){
             if (compatibleHardwareVersion === currentHardwareVersion)
             {
               latestCompatibleSoftware = data.firmware[softwareVersionCount]['software'];
-              if (latestCompatibleSoftware !== softwareVersion)
-              {
+              //if (latestCompatibleSoftware !== softwareVersion)
+              //{
                 console.log(latestCompatibleSoftware);
                 PromptUserForUpdate();
-              }
+              //}
               break versionFindLoop;
             }
           }
