@@ -7,12 +7,12 @@
   pointer-events: none;
 }
 
-#changeLog p {
+#changelog p {
     font-size: .5em;
     padding: 0px;
     margin: 0px;
 }
-#changeLog li {
+#changelog li {
     font-size: .5em;
     padding: 0px;
     margin: 0px;
