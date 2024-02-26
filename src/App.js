@@ -257,6 +257,20 @@ return (
     >
       Connect to Bluetooth
     </button>
+
+    <h1>Change Log</h1>
+    <p>1.3.14:</p>
+    <ul>
+      <li>Changed backend URL to kms-prod-alb-127090486.us-west-1.elb.amazonaws.com</li>
+    </ul>
+    <p>1.3.13:</p>
+    <ul>
+      <li>Version up so that staging and production match.</li>
+    </ul>
+    <p>1.3.11:</p>
+    <ul>
+      <li>Added AQ-Go prefix to the measurment string labels.</li>
+    </ul>
   </header>
 </div>
 )
